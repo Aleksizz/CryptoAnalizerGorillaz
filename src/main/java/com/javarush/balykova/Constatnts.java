@@ -1,14 +1,16 @@
 package com.javarush.balykova;
 
 
+import java.io.File;
 
-public class AlphabetConst {
+public class Constatnts {
 
     private static final char[] ALPHABET = {'а', 'б', 'в', 'г', 'д', 'е', 'ж', 'з',
             'и','к', 'л', 'м', 'н', 'о', 'п', 'р', 'с', 'т', 'у', 'ф', 'х', 'ц', 'ч', 'ш', 'щ',
             'ъ', 'ы', 'ь', 'э', 'я', '.', ',', '«', '»', '"', '\'', ':', '!', '?', ' '};
 
+    public static final String TXT_FOLDER = System.getProperty("user.dir") + File.separator + "text" +File.separator;
 
-    public AlphabetConst() {
+    public Constatnts() {
     }
 }
